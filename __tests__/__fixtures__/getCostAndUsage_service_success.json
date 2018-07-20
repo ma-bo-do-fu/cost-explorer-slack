@@ -1,0 +1,119 @@
+{
+    "GroupDefinitions": [
+        {
+            "Type": "DIMENSION",
+            "Key": "SERVICE"
+        }
+    ],
+    "ResultsByTime": [
+        {
+            "TimePeriod": {
+                "Start": "2018-07-01",
+                "End": "2018-07-31"
+            },
+            "Total": {},
+            "Groups": [
+                {
+                    "Keys": ["AWS CloudTrail"],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "0",
+                            "Unit": "USD"
+                        }
+                    }
+                },
+                {
+                    "Keys": ["AWS Cost Explorer"],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "0.08",
+                            "Unit": "USD"
+                        }
+                    }
+                },
+                {
+                    "Keys": ["AWS Key Management Service"],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "0.344086016",
+                            "Unit": "USD"
+                        }
+                    }
+                },
+                {
+                    "Keys": ["EC2 - Other"],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "2.4652570507",
+                            "Unit": "USD"
+                        }
+                    }
+                },
+                {
+                    "Keys": ["Amazon Elastic Compute Cloud - Compute"],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "2.9654401124",
+                            "Unit": "USD"
+                        }
+                    }
+                },
+                {
+                    "Keys": ["Amazon Elastic Load Balancing"],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "0.7560006238",
+                            "Unit": "USD"
+                        }
+                    }
+                },
+                {
+                    "Keys": ["Amazon Relational Database Service"],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "2.5245028759",
+                            "Unit": "USD"
+                        }
+                    }
+                },
+                {
+                    "Keys": ["Amazon Simple Notification Service"],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "0",
+                            "Unit": "USD"
+                        }
+                    }
+                },
+                {
+                    "Keys": ["Amazon Simple Storage Service"],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "0.3759501421",
+                            "Unit": "USD"
+                        }
+                    }
+                },
+                {
+                    "Keys": ["AmazonCloudWatch"],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "0.0688172032",
+                            "Unit": "USD"
+                        }
+                    }
+                },
+                {
+                    "Keys": ["Tax"],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "0.76",
+                            "Unit": "USD"
+                        }
+                    }
+                }
+            ],
+            "Estimated": true
+        }
+    ]
+}
