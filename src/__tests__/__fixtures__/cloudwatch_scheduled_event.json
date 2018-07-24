@@ -1,0 +1,11 @@
+{
+  "version": "0",
+  "id": "00000000-0000-0000-0000-000000000000",
+  "detail-type": "Scheduled Event",
+  "source": "aws.events",
+  "account": "000000000000",
+  "time": "2018-07-12T03:44:44Z",
+  "region": "us-east-1",
+  "resources": ["arn:aws:lambda:us-east-1:000000000000:function:cost-explorer-slack"],
+  "detail": {}
+}

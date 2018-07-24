@@ -1,0 +1,14 @@
+{
+  "Total": "100",
+  "AWS CloudTrail": "0",
+  "AWS Cost Explorer": "0.08",
+  "AWS Key Management Service": "0.344086016",
+  "EC2 - Other": "2.4652570507",
+  "Amazon Elastic Compute Cloud - Compute": "2.9654401124",
+  "Amazon Elastic Load Balancing": "0.7560006238",
+  "Amazon Relational Database Service": "2.5245028759",
+  "Amazon Simple Storage Service": "0.3759501421",
+  "AmazonCloudWatch": "0.0688172032",
+  "Amazon Simple Notification Service": "0",
+  "Tax": "0.76"
+}

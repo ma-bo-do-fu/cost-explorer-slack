@@ -1,0 +1,18 @@
+{
+  "ResultsByTime": [
+    {
+      "TimePeriod": {
+        "Start": "2018-07-01",
+        "End": "2018-07-31"
+      },
+      "Total": {
+        "UnblendedCost": {
+          "Amount": "100",
+          "Unit": "USD"
+        }
+      },
+      "Groups": [],
+      "Estimated": true
+    }
+  ]
+}
