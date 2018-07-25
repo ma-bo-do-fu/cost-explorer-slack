@@ -59,8 +59,6 @@ class CostExplorer {
     };
 
     const response = await this.costExplorer.getCostAndUsage(params).promise();
-    console.log('response');
-    console.log(response);
     const servisesCosts = {};
     try {
       response.ResultsByTime[0].Groups.forEach((element) => {

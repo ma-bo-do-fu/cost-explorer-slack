@@ -3,10 +3,6 @@ const fs = require('fs');
 const path = require('path');
 const CostExplorer = require('../lib/cost_explorer');
 
-describe('fetchServicesCosts()', () => {});
-
-beforeEach(() => {});
-
 afterEach(() => {
   jest.clearAllMocks();
   AWS.restore();
@@ -27,12 +23,4 @@ test('fetchServicesCosts() success', async () => {
   const time = '2018-07-12T03:44:44Z';
   const result = await costExplorer.fetchServicesCosts(time, time);
   expect(result).toEqual(JSON.parse(fetchServicesCostsSuccess));
-});
-
-test('fetchServicesCosts() failed', async () => {
-  AWS.mock('CostExplorer', 'getCostAndUsage', async () => ({ test: 'test' }));
-
-  const costExplorer = new CostExplorer();
-  const time = '2018-07-12T03:44:44Z';
-  // expect(async () => costExplorer.fetchServicesCosts(time, time)).toThrow();
 });
